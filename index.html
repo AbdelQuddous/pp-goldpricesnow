@@ -1,68 +1,134 @@
-<html>
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>سياسة الخصوصية · نقاء | Naqaa Privacy Policy</title>
+<meta name="description" content="سياسة الخصوصية لتطبيق نقاء لأسعار الذهب في الخليج. Privacy policy for the Naqaa gold prices app.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;600&family=Reem+Kufi:wght@600&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#0E0D0B; --card:#17150F; --line:#2A261C; --text:#EDE6D6; --muted:#A79E8A; --gold:#D4AF5A; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:16px/1.8 "IBM Plex Sans Arabic", system-ui, sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; padding:40px 16px 64px; }
+  header { text-align:center; margin-bottom:32px; }
+  .brand { font-family:"Reem Kufi", serif; font-size:44px; color:var(--gold); margin:0; }
+  .sub { color:var(--muted); margin:4px 0 0; }
+  nav { display:flex; gap:8px; justify-content:center; margin-top:20px; }
+  nav a { color:var(--gold); border:1px solid var(--line); border-radius:999px; padding:4px 16px; text-decoration:none; }
+  section { background:var(--card); border:1px solid var(--line); border-radius:16px; padding:24px; margin-bottom:24px; }
+  h2 { font-family:"Reem Kufi", serif; color:var(--gold); font-size:24px; margin:0 0 8px; }
+  h3 { font-size:17px; margin:20px 0 4px; }
+  p, li { color:var(--text); }
+  .muted { color:var(--muted); font-size:14px; }
+  ul { padding-inline-start:20px; margin:4px 0; }
+  a { color:var(--gold); }
+  [dir=ltr] { text-align:left; }
+</style>
+</head>
 <body>
-<h2>Privacy Policy</h2>
-<p>AbdelQuddos built the "Gold Prices Now" app as a free app. This SERVICE is provided by AbdelQuddos at no cost and is intended
-    for use as is.</p>
-<p>This page is used to inform website visitors regarding my policies with the collection, use, and
-    disclosure of Personal Information if anyone decided to use my Service.</p>
-<p>If you choose to use my Service, then you agree to the collection and use of information in
-    relation with this policy. The Personal Information that I collect is used for providing and
-    improving the Service. I will not use or share your information with anyone except as described
-    in this Privacy Policy.</p>
-<p>The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions,
-    which is accessible at "Gold Prices Now", unless otherwise defined in this Privacy Policy.</p>
+<div class="wrap">
+  <header>
+    <p class="brand">نقاء</p>
+    <p class="sub">أسعار الذهب في الخليج · Gold prices across the Gulf</p>
+    <nav><a href="#ar">العربية</a><a href="#en">English</a></nav>
+  </header>
 
-<p><strong>Information Collection and Use</strong></p>
-<p>The app does use third party services that may collect information used to identify you.
+  <section id="ar">
+    <h2>سياسة الخصوصية</h2>
+    <p class="muted">آخر تحديث: 23 نوفمبر 2026</p>
+    <p>توضح هذه السياسة كيف يتعامل تطبيق «نقاء» (com.abdelquddos.goldpricesnow) مع بياناتك. التطبيق مجاني ويعرض أسعار الذهب الاسترشادية في السعودية والإمارات والكويت وقطر والبحرين وعُمان، ولا يتطلب إنشاء حساب أو تسجيل دخول.</p>
 
-<p><strong>Log Data</strong></p>
-<p>I want to inform you that whenever you use my Service, in case of an error in the app I collect
-    data and information (through third party products) on your phone called Log Data. This Log Data
-    may include information such as your devices’s Internet Protocol (“IP”) address, device name,
-    operating system version, configuration of the app when utilising my Service, the time and date
-    of your use of the Service, and other statistics.</p>
+    <h3>بيانات تبقى على جهازك فقط</h3>
+    <ul>
+      <li>إعداداتك: اللغة، والمظهر، وشكل الأرقام، والدولة الافتراضية.</li>
+      <li>«خزنتي» وخطة ذهب العرس: القطع والأوزان والمقاسات التي تسجلها.</li>
+      <li>مقاس الخاتم ومعايرة الشاشة.</li>
+    </ul>
+    <p>هذه البيانات محفوظة على هاتفك ولا نرسلها إلى أي خادم. تُحذف عند حذف التطبيق أو مسح بياناته.</p>
 
-<p><strong>Service Providers</strong></p> <!-- This part need seem like it's not needed, but if you use any Google services, or any other third party libraries, chances are, you need this. -->
-<p>I may employ third-party companies and individuals due to the following reasons:</p>
-<ul>
-    <li>To facilitate our Service;</li>
-    <li>To provide the Service on our behalf;</li>
-    <li>To perform Service-related services; or</li>
-    <li>To assist us in analyzing how our Service is used.</li>
-</ul>
-<p>I want to inform users of this Service that these third parties have access to your Personal
-    Information. The reason is to perform the tasks assigned to them on our behalf. However, they
-    are obligated not to disclose or use the information for any other purpose.</p>
+    <h3>تنبيهات الأسعار</h3>
+    <p>عند إنشاء تنبيه سعر، يرسل التطبيق إلى خادمنا رمز الإشعارات الخاص بجهازك (من Firebase Cloud Messaging) مع إعدادات التنبيه: الدولة والعيار والاتجاه والسعر المستهدف. نستخدمها فقط لإرسال الإشعار إليك عندما يصل السعر إلى هدفك. لا يرتبط هذا الرمز باسمك أو رقمك أو بريدك. تُحذف التنبيهات من الخادم عند حذفها من التطبيق، ويمكنك إيقاف الإشعارات في أي وقت من إعدادات الهاتف.</p>
 
-<p><strong>Security</strong></p>
-<p>I value your trust in providing us your Personal Information, thus we are striving to use
-    commercially acceptable means of protecting it. But remember that no method of transmission over
-    the internet, or method of electronic storage is 100% secure and reliable, and I cannot
-    guarantee its absolute security.</p>
+    <h3>جلب الأسعار</h3>
+    <p>يطلب التطبيق الأسعار من خادمنا دون إرسال أي بيانات شخصية. كأي اتصال بالإنترنت، قد يرى الخادم عنوان IP بشكل مؤقت لتوصيل الرد، ولا نخزنه لربطه بك.</p>
 
-<p><strong>Links to Other Sites</strong></p>
-<p>This Service may contain links to other sites. If you click on a third-party link, you will be
-    directed to that site. Note that these external sites are not operated by me. Therefore, I
-    strongly advise you to review the Privacy Policy of these websites. I have no control over, and
-    assume no responsibility for the content, privacy policies, or practices of any third-party
-    sites or services.</p>
+    <h3>خدمات طرف ثالث</h3>
+    <ul>
+      <li><b>Google AdMob</b> لعرض الإعلانات. قد يجمع معرّف الإعلانات وعنوان IP ومعلومات الجهاز والتفاعل مع الإعلانات، لعرض الإعلانات وقياسها ومنع الاحتيال. <a href="https://policies.google.com/technologies/ads">سياسة Google للإعلانات</a>.</li>
+      <li><b>Google Analytics for Firebase</b> لفهم استخدام التطبيق بشكل إجمالي (مثل الشاشات المستخدمة والأعطال). <a href="https://firebase.google.com/support/privacy">خصوصية Firebase</a>.</li>
+      <li><b>Firebase Cloud Messaging</b> لتوصيل إشعارات تنبيهات الأسعار.</li>
+    </ul>
+    <p>يمكنك إعادة ضبط معرّف الإعلانات أو حذفه من إعدادات Google في هاتفك.</p>
 
-<p><strong>Children’s Privacy</strong></p>
-<p>This Services do not address anyone under the age of 13. I do not knowingly collect personal
-    identifiable information from children under 13. In the case I discover that a child under 13
-    has provided me with personal information, I immediately delete this from our servers. If you
-    are a parent or guardian and you are aware that your child has provided us with personal
-    information, please contact me so that I will be able to do necessary actions.</p>
+    <h3>ما لا نفعله</h3>
+    <ul>
+      <li>لا نجمع اسمك أو بريدك أو رقم هاتفك أو موقعك.</li>
+      <li>لا نبيع بياناتك.</li>
+      <li>لا يستخدم التطبيق الكاميرا. مقاس الخاتم يُقاس على الشاشة فقط.</li>
+    </ul>
 
-<p><strong>Changes to This Privacy Policy</strong></p>
-<p>I may update our Privacy Policy from time to time. Thus, you are advised to review this page
-    periodically for any changes. I will notify you of any changes by posting the new Privacy Policy
-    on this page. These changes are effective immediately, after they are posted on this page.</p>
+    <h3>الأمان</h3>
+    <p>كل الاتصالات بين التطبيق وخوادمنا مشفرة عبر HTTPS.</p>
 
-<p><strong>Contact Us</strong></p>
-<p>If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact
-    me.</p>
-<p>This Privacy Policy page was created at <a href="https://privacypolicytemplate.net"
-                                              target="_blank">privacypolicytemplate.net</a>.</p>
+    <h3>الأطفال</h3>
+    <p>التطبيق غير موجه للأطفال دون 13 عاماً، ولا نجمع عن قصد أي بيانات منهم.</p>
+
+    <h3>التغييرات</h3>
+    <p>قد نحدّث هذه السياسة، وننشر أي تحديث على هذه الصفحة مع تاريخ آخر تحديث.</p>
+
+    <h3>تواصل معنا</h3>
+    <p>لأي سؤال عن الخصوصية، راسلنا على البريد الإلكتروني للمطوّر الظاهر في صفحة «نقاء» على Google Play.</p>
+  </section>
+
+  <section id="en" dir="ltr" lang="en">
+    <h2>Privacy Policy</h2>
+    <p class="muted">Last updated: 23 November 2026</p>
+    <p>This policy explains how the Naqaa app (com.abdelquddos.goldpricesnow) handles your data. Naqaa is free, shows indicative gold prices for Saudi Arabia, the UAE, Kuwait, Qatar, Bahrain and Oman, and needs no account or sign-in.</p>
+
+    <h3>Data that stays on your phone</h3>
+    <ul>
+      <li>Your settings: language, theme, digit style and default country.</li>
+      <li>My Vault and the wedding gold plan: the pieces, weights and sizes you enter.</li>
+      <li>Your ring size and screen calibration.</li>
+    </ul>
+    <p>This data is stored on your phone and is never sent to any server. It is removed when you uninstall the app or clear its data.</p>
+
+    <h3>Price alerts</h3>
+    <p>When you create a price alert, the app sends our server your device's notification token (from Firebase Cloud Messaging) together with the alert settings: country, karat, direction and target price. We use them only to notify you when the price reaches your target. The token is not linked to your name, number or email. Alerts are deleted from the server when you delete them in the app, and you can turn notifications off at any time in your phone settings.</p>
+
+    <h3>Fetching prices</h3>
+    <p>The app requests prices from our server without sending personal data. As with any internet request, the server may briefly see your IP address to deliver the response; we do not store it to identify you.</p>
+
+    <h3>Third-party services</h3>
+    <ul>
+      <li><b>Google AdMob</b> shows ads. It may collect the advertising ID, IP address, device information and ad interactions to serve and measure ads and prevent fraud. <a href="https://policies.google.com/technologies/ads">Google advertising policy</a>.</li>
+      <li><b>Google Analytics for Firebase</b> helps us understand app usage in aggregate (such as screens used and crashes). <a href="https://firebase.google.com/support/privacy">Firebase privacy</a>.</li>
+      <li><b>Firebase Cloud Messaging</b> delivers price alert notifications.</li>
+    </ul>
+    <p>You can reset or delete your advertising ID in your phone's Google settings.</p>
+
+    <h3>What we don't do</h3>
+    <ul>
+      <li>We don't collect your name, email, phone number or location.</li>
+      <li>We don't sell your data.</li>
+      <li>The app doesn't use the camera. Ring size is measured on the screen only.</li>
+    </ul>
+
+    <h3>Security</h3>
+    <p>All traffic between the app and our servers is encrypted over HTTPS.</p>
+
+    <h3>Children</h3>
+    <p>The app is not directed at children under 13, and we do not knowingly collect data from them.</p>
+
+    <h3>Changes</h3>
+    <p>We may update this policy and will post any update on this page with a new date.</p>
+
+    <h3>Contact</h3>
+    <p>For privacy questions, email the developer address shown on Naqaa's Google Play page.</p>
+  </section>
+</div>
 </body>
 </html>
